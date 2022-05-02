@@ -1,0 +1,9 @@
+server:
+  port: 8083
+spring:
+  config:
+    activate:
+      on-profile: test3
+instance:
+  metadataMap:
+    zone: test3

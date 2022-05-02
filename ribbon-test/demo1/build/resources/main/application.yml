@@ -1,0 +1,19 @@
+server:
+  port: 8081
+spring:
+  config:
+    activate:
+      on-profile: test1
+instance:
+  metadataMap:
+    zone: test1
+---
+server:
+  port: 8082
+spring:
+  config:
+    activate:
+      on-profile: test2
+instance:
+  metadataMap:
+    zone: test2

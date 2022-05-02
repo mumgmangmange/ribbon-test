@@ -1,0 +1,11 @@
+server:
+  port: 8092
+demo1:
+  ribbon:
+    listOfServers: localhost:8081, localhost:8082
+    ServerListRefreshInterval: 15000
+
+demo2:
+  ribbon:
+    listOfServers: localhost:8083
+    ServerListRefreshInterval: 15000
